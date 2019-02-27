@@ -67,5 +67,5 @@ uint32_t monero_fork_rules::fixed_mixinsize()
 }
 uint64_t monero_fork_rules::dust_threshold()
 {
-	return 2000000000;
+	return 0;  // only used to decide if an output should be spendable, for now no restriction should be fine.
 }
